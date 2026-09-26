@@ -1,0 +1,11 @@
+tuples=()
+print(tuples)
+tuples=(1,2,3,4,5,6)
+print(tuples)
+tuples=(1,'shreeja',5.5)
+print(tuples)
+tuples=('s','h','r','e','e','j','a')
+print(tuples[2])
+print(tuples[6])
+for letter in (tuples):
+    print('hello ',letter)
